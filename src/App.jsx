@@ -1,7 +1,11 @@
 import React from 'react'
+import Navbar from './Components/Navbar';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
  const App = () => {
   return (
-    <div><h1 className="text-3xl font-bold underline">Hello World</h1>
+    <div>
+      <Navbar />
     </div>
   )
 }
