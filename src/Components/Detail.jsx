@@ -12,7 +12,7 @@ const Detail = () => {
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-4">
-          <div className="flex justify-end">
+          <div className="flex justify-center">
             <img src={pic} alt="Profile" width="400px" height="400px"/>
           </div>
         </div>
