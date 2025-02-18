@@ -1,5 +1,10 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import project1 from "../assets/assets/projects/project1.png";
+import project2 from "../assets/assets/projects/project2.png"
+
+
+
 
 
 export const About_me = `Motivated and detail-oriented Computer Science student at NSBM Green University, specializing in AI, Machine Learning, and Cloud Computing. Proficient in Python, React, and data science, with hands-on experience in TensorFlow, Pandas, and NumPy. Passionate about leveraging technology to develop intelligent solutions. Actively expanding expertise in data analysis, model training, and algorithm optimization. Seeking opportunities to apply skills in a dynamic and innovative environment.`;
@@ -19,20 +24,22 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "E-Commerce Website",
+    image:project1,
+    description:"Full functional e-commerce website with features like loging,product listing,shopping cart and user authentication",
+    technology:"HTML,CSS,JavaScript,Bootstrap"
+    
     
   },
   {
-    title: "Task Management App",
-   
-  },
-  {
-    title: "Portfolio Website",
-   
-  },
-  {
-    title: "Blogging Platform",
+    title: "Portfolio Wesite",
+    image:project2,
+    description:"A personal portfolio website showcasing projects, skills, experience, and contact information.",
+    technology:"React,TailwingCSS,ReactBootstrap"
     
-  },
+    
+  }
+
+  
 ];
 
 export const CONTACT = {
