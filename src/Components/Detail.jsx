@@ -60,7 +60,7 @@ const Detail = () => {
               initial={{ x: 100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               viewport={{ once: true }} // Runs only once when in view
-              transition={{ duration: 0.5, delay: 1.5 }}
+              transition={{ duration: 1, delay: 1.5 }}
               src={pic}
               alt="Profile"
               width="400px"
